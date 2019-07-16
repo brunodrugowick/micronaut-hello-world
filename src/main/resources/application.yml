@@ -1,3 +1,8 @@
 micronaut:
   application:
     name: micronaut-hello-world
+  server:
+    port: 8080
+    cors:
+      enabled: false
+        
